@@ -11,8 +11,10 @@ const fs = require('fs');
 
 const obj = {
 	index: path.join(path.resolve(__dirname, 'src/js'), 'index.js'),
-	contactus: path.join(path.resolve(__dirname, 'src/js'), 'contactus.js'),
-	aboutus: path.join(path.resolve(__dirname, 'src/js'), 'aboutus.js')
+	homepage: path.join(path.resolve(__dirname, 'src/js'), 'homepage.js'),
+	contatti: path.join(path.resolve(__dirname, 'src/js'), 'contatti.js'),
+	chisiamo: path.join(path.resolve(__dirname, 'src/js'), 'chisiamo.js'),
+	prenotaunvaccino: path.join(path.resolve(__dirname, 'src/js'), 'prenotaunvaccino.js')
 }
 
 module.exports = obj
